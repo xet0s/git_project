@@ -10,10 +10,3 @@ class MongoDB:
     
     def close_connection(self):
         self.client.close()
-
-
-from database import MongoDB
-
-db=MongoDB()
-
-db.close_connection()
